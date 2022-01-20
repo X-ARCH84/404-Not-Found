@@ -1,0 +1,81 @@
+/*html {
+  background-image: url(https://i.imgur.com/w5aghXb.png);
+}*/
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h3 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.heading {
+  padding-left: 610px;
+  padding-top: 150px;
+}
+
+img {
+  height: 600px;
+  width: 600px;
+  position: absolute;
+}
+
+.message {
+  height: 100px;
+  padding-left: 610px;
+}
+
+button {
+  margin-left: 610px;
+  margin-top: 100px;
+  height: 50px;
+  background-color: grey;
+}
+
+#creator {
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  bottom: 8px;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  
+ .heading {
+   display: block;
+   text-align: left;
+   padding-top: 210px;
+   margin-left: -610px;
+  }
+  
+  .message {
+    display: block;
+    text-align: left;
+    margin-left: -610px;
+  }
+  
+  button {
+    margin-left: 35%;
+  }
+  
+  #creator {
+  opacity: 0.1;
+  position: bottom;
+  left: 0;
+  bottom: 8px;
+  text-align: center;
+  width: 100%;
+}
+}
