@@ -1,6 +1,7 @@
-/*html {
-  background-image: url(https://i.imgur.com/w5aghXb.png);
-}*/
+html {
+  max-height: 1080px;
+  max[width: 1440px;]
+}
 
 h1 {
   font-family: 'Space Mono', monospace;
@@ -11,6 +12,7 @@ h1 {
   letter-spacing: -0.035em;
   text-align: left;
   color: #333333;
+  width: 586px;
 }
 
 h3 {
@@ -44,37 +46,68 @@ img {
   height: 500px;
   width: 500px;
   position: absolute;
-  padding-top: 60px;
+  padding-top: 140px;
+  padding-left: 25px;
 }
 
 .message {
   height: 100px;
   padding-left: 610px;
+  width: 381px;
 }
 
 button {
-  margin-left: 610px;
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 620px;
+  top: 663px;
+  background: #333333;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  /*margin-left: 610px;
   margin-top: 50px;
   height: 50px;
   background-color: #333333;
   color: white;
   font-family: 'Space Mono', monospace;
+  top: 663px;*/
 }
 
 #creator {
-  opacity: 0.1;
   position: absolute;
-  left: 0;
   text-align: center;
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  color: #BDBDBD;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  top: 1039px;
 }
 
 @media only screen and (max-width: 600px) {
   img {
     width: 300px;
     height: 300px;
-    margin-top: -100px;
-    left: 25%;
+    margin-top: -130px;
+    left: 10%;
+  }
+  
+  h1 {
+    font-size: 48px;
+    line-height: 71px;
+    margin-top: 100px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  h3 {
+    font-size: 24px;
   }
   
  .heading {
@@ -92,11 +125,10 @@ button {
   
   button {
     margin-top: 15%;
-    margin-left: 37%;
+    margin-left: 30%;
   }
   
   #creator {
-  opacity: 0.1;
   position: bottom;
   left: 0;
   text-align: center;
